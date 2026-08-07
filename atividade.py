@@ -1,3 +1,4 @@
+
 quantidade = int(input("Digite a quantidade de itens: "))
 
 total = 0
@@ -10,7 +11,6 @@ media = total / quantidade
 
 print(f"\nTotal da compra: R$ {total:.2f}")
 print(f"Média por item: R$ {media:.2f}")
-
 
 valor = 1200.00
 
