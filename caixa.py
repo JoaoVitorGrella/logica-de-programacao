@@ -1,10 +1,10 @@
 titular = "Joao Vitor Grella"
 saldo = 500.00
 
-# Controle do caixa eletrônico
+
 caixa_com_cedulas = True
 
-# Verifica se o caixa possui cédulas
+
 if caixa_com_cedulas:
 
     print("=== Bem Vindo ===")
@@ -64,12 +64,12 @@ if caixa_com_cedulas:
 
             saldo += emprestimo
 
-            print("✅ Empréstimo aprovado!")
+            print(" Empréstimo aprovado!")
             print(f"Novo saldo: R$ {saldo:.2f}")
 
         else:
 
-            print("⚠️ Empréstimo recusado!")
+            print(" Empréstimo recusado!")
 
   
     else:
@@ -77,4 +77,4 @@ if caixa_com_cedulas:
         print("Opção inválida")
 else:
 
-    print("⚠️ Terminal em manutenção. Sem cédulas disponíveis.")
+    print(" Terminal em manutenção. Sem cédulas disponíveis.")
